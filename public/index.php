@@ -5,7 +5,7 @@ use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
 
 require dirname(__DIR__).'/config/bootstrap.php';
-die('This is public/index.php');
+die('This is public/index.php:D');
 if ($_SERVER['APP_DEBUG']) {
     umask(0000);
 
